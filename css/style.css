@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background: url(https://source.unsplash.com/cnEzFsV4Y-k);
+    background-position: fixed;
+/*     background-repeat: no-repeat; */
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(220, 220, 220, 0.7);
+    margin: 100px auto;
+    max-width: 300px;
+    min-width: 200px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 2%;
+    color: black;
+}
+
+.hidden {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+footer {
+  color: lightgrey;
+}
